@@ -77,5 +77,15 @@ namespace Pong.Properties {
                 return ResourceManager.GetStream("score", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ScoreGif {
+            get {
+                object obj = ResourceManager.GetObject("ScoreGif", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
